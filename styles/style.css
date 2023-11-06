@@ -274,6 +274,7 @@ address {
   background-image: url(../images/card-lot-01.jpg);
   background-size: cover;
 }
+
 .card-content {
   color: #fff;
   z-index: 30;
@@ -287,9 +288,11 @@ address {
   flex-direction: column;
   justify-content: space-between;
 }
+
 .card-ref {
   text-decoration: none;
 }
+
 .card-text {
   color: #fff;
   font-size: 20px;
@@ -300,9 +303,11 @@ address {
   display: flex;
   text-decoration: none;
 }
+
 .card-text {
   text-decoration: none;
 }
+
 .card-header {
   color: #fff;
   font-size: 22px;
@@ -380,6 +385,7 @@ address {
   height: 240px;
   border-radius: 50%;
 }
+
 .logo-white {
   width: 148px;
   height: 114px;
