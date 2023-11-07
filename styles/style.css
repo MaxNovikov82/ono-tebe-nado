@@ -1,6 +1,5 @@
 .header {
   padding-top: 92px;
-  padding-bottom: 92px;
   padding-left: 51px;
   padding-right: 49px;
 }
@@ -53,19 +52,11 @@
   max-width: 240px;
 }
 
-address {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24.3px;
-}
-
 .cover {
   display: block;
   margin-left: auto;
   margin-right: auto;
   color: #fff;
-
   position: relative;
   background-image: url(../images/cover.jpg);
   background-size: cover;
@@ -73,37 +64,35 @@ address {
   background-position: center;
   max-width: 1440px;
   padding-bottom: 50px;
+  z-index: -2;
 }
 
 .cover-container {
-  font-family: Raleway, sans-serif;
-}
-
-.cover-container::before {
-  content: "";
   background-color: rgb(0 0 0 /0.6);
   position: absolute;
   inset: 0;
-  z-index: 0;
+  z-index: -1;
   width: 100%;
   height: 100%;
 }
 
 .cover-title {
   width: 100%;
-  position: absolute; /*Извините, ничего не могу поделать, без абсолютного позиционирования всё ломается*/
+  position: static;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
   line-height: 115%;
   letter-spacing: 30px;
   text-transform: uppercase;
-  margin-top: 165px;
+  margin-top: 92px;
   display: flex;
   gap: 12px;
-  z-index: 5;
+  z-index: 20;
   flex-direction: column;
-  padding: 0 50px;
+  padding-top: 165px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .aligned-text_center {
@@ -127,7 +116,7 @@ address {
 
 .banner_footer {
   display: flex;
-  padding-top: 654px;
+  padding-top: 123px;
   padding-left: 371px;
   justify-content: center;
   color: #fff;
@@ -173,7 +162,7 @@ address {
   padding: 12px 32px 12px 32px;
   z-index: 7;
 }
-/*Извините, никак не могу понять как сделать, чтобы картинка адаптировалась при переносе. Всю голову сломал над этим вопросом. Flex-grow всё ломает*/
+
 .lots {
   margin-top: 180px;
   margin-right: 50px;
@@ -218,7 +207,7 @@ address {
   display: flex;
   flex-direction: column;
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -231,7 +220,7 @@ address {
   display: flex;
   flex-direction: column;
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -244,7 +233,7 @@ address {
   display: flex;
   flex-direction: column;
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
