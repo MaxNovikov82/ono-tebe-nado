@@ -64,7 +64,7 @@
   background-position: center;
   max-width: 1440px;
   padding-bottom: 50px;
-  z-index: -2;
+  z-index: 1;
 }
 
 .cover-container {
@@ -78,7 +78,6 @@
 
 .cover-title {
   width: 100%;
-  position: static;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -88,7 +87,6 @@
   margin-top: 92px;
   display: flex;
   gap: 12px;
-  z-index: 20;
   flex-direction: column;
   padding-top: 165px;
   padding-left: 50px;
@@ -129,7 +127,6 @@
 }
 
 .banner_description {
-  z-index: 8;
   padding-top: 10px;
 }
 
@@ -140,7 +137,6 @@
   font-weight: 400;
   line-height: 28px;
   text-transform: uppercase;
-  z-index: 1;
   word-spacing: 17px;
 }
 
@@ -160,7 +156,6 @@
   line-height: normal;
   text-transform: uppercase;
   padding: 12px 32px 12px 32px;
-  z-index: 7;
 }
 
 .lots {
@@ -202,7 +197,6 @@
 .card {
   max-width: 430px;
   min-height: 450px;
-  z-index: 7;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -215,7 +209,6 @@
 .card1 {
   min-height: 450px;
   max-width: 430px;
-  z-index: 7;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -228,7 +221,6 @@
 .card2 {
   max-width: 430px;
   min-height: 450px;
-  z-index: 7;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -263,7 +255,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-  z-index: 5;
   display: flex;
 }
 
@@ -276,7 +267,6 @@
   text-decoration-line: underline;
   text-transform: uppercase;
   position: relative;
-  z-index: 5;
 }
 
 .post-card {
@@ -312,7 +302,6 @@
 .logo-white {
   width: 148px;
   height: 114px;
-
   margin-top: 63px;
   margin-left: 46px;
   display: grid;
